@@ -1,0 +1,93 @@
+#contactus fieldset {
+   color: #cbcccb;
+   border-style: none;
+}
+
+#contactus legend, h2 {
+	color: #03bd00;
+	text-align: left;
+	font: normal 13px "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+
+#contactus input[type="text"],textarea {
+  width: 90%;
+  margin-left: -20px;
+  height: 100px;
+  margin-top: 5px;
+  border: 1px solid #cbcccb;
+  color : #7f807f; 
+  padding : 3px; 
+	border-radius: 3px;
+	font-size: 13px;
+}
+
+#contactus input[type="text"] {
+	width: 90%;
+	height: 25px;
+	margin: 5px 0px 5px -20px;
+  border-radius: 3px;   
+}
+
+#contactus input[type="submit"] {
+  display: block;
+  margin-left: -20px;
+  padding: 7px 15px 7px 15px;
+  font-size: 13px;
+  border: 1px solid #cbcccb;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f3f4f3;
+  text-align: center;
+  color: #272827;
+}
+
+/* Active state for block level buttons */
+#contactus input[type="submit"]:hover {
+  background-color: #dde0dd;
+}
+
+#contactus .error
+{
+   color: #ff6262;
+   font-size: 12px;
+   font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+
+#contactus fieldset#antispam
+{
+   padding:2px;
+   border-left:0;
+   border-right:0;
+   border-bottom:0;
+}
+
+#contactus fieldset#antispam legend
+{
+   font-weight:bold;
+   color:#333;   
+}
+
+#contactus .short_explanation {
+	
+   color: #f0f0f0;
+   font-size: 10px;
+}
+
+/* spam_trap: This input is hidden. This is here to trick the spam bots*/
+#contactus .spmhidip {
+   display:none;
+   width:10px;
+   height:3px;
+}
+#fg_crdiv
+{
+   opacity: .2;
+   -moz-opacity: .2;
+   filter: alpha(opacity=20);   
+}
+#fg_crdiv p
+{
+    display:none;
+}
